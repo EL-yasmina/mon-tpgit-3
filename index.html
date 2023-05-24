@@ -4,11 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mon git</title>
+    <title>Portfolio-EL TAIEBI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>git jour 1</h1>
-    <p> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">EL TAIEBI Yasmina</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#bio">Bio</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#proj">Projet</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="cont1" class="container-fluid text-center bg-1">
+        <h3 style=" font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Je suis EL TAIEBI Yasmina</h3>
+        <img src="image/dev.jpg" class="img-circle" alt="dev " height="10%" width="10%" >
+        <h3>Développeuse Web</h3>
+</div>  
+
+<div id="bio" class="container-fluid bg-2 text-center">
+    <h2> Ma Bio</h2>
+    <p id="parag">❝ Yasmina, 22 ans,développeuse d'aplication, passionnée par l'informatique. Je suis en constante exploration des langages web tels que HTML, CSS, JavaScript et PHP.<br> Maîtrisant également Bootstrap, j'ai les compétences nécessaires pour créer des interfaces web modernes. Déterminée à acquérir de l'expérience et prête à relever de nouveaux défis dans le domaine du développement web.❞</p>
+</div>
+
+<div id="service" class="container-fluid bg-3 text-center">    
+    <h2 id="service">Service</h2><br>
+    <div class="row">
+      <div class="col-sm-3">
+        <p>Création des sites Web</p>
+        <img src="image/img1.jpg" class="img-responsive" style="width:100%" alt="img1">
+      </div>
+      <div class="col-sm-3"> 
+        <p>Modérniser le désign des sites Web</p>
+        <img src="image/img2.jpg" class="img-responsive" style="width:100%" alt="img2">
+      </div>
+      <div class="col-sm-3"> 
+        <p>Conception et développement des site responsives</p>
+        <img src="image/img3.jpg" class="img-responsive" style="width:100% " alt="img3">
+      </div>
+      <div class="col-sm-3">
+        <p>Faire des template HTML/Css</p>
+        <img src="image/img4.jpg" class="img-responsive" style="width:100%" alt="img4">
+      </div>
+    </div>
+</div>
+<div class="container-fluid bg-4 text-center" id="proj">    
+    <h2 style="  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Projet</h2><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>École en ligne "E-langage"</h2>
+        <p>Création d’une site Web d'une école de langues etrangère 100% en ligne. Ma mission encadre le projet de A à Z, création des maquettes, développer le site avec Html Css JavaScript Php Bootstrap, créations des formulaire d'inscription, de paiement et de contact. Créations et utilisations de la base de données mySQL, utilisations de Canvas pour réaliser le Logo et les images que j'ai intégrer dans mon projet. </p>
+        <img src="image/Capture d'écran 2023-05-21 130119.png" class="img-responsive" style="width:100%" alt="captur"><br>
+        <a href="##" class="btn btn-primary">Consultez le site</a>
+      </div>
+      <div class="col-sm-4"> 
+        <h2>Applications Web</h2>
+        <p>Application de gestion de tâches : Développement d'une application Web qui permet aux utilisateurs de créer, organiser et suivre leurs tâches quotidiennes,développer l'application en HTML, CSS et JavaScript pour créer une interface utilisateur conviviale et réactive, Utilisation d'un système de gestion de base de données MySQL, pour stocker les informations sur les tâches.</p>
+        <img src="image/proj1.png" class="img-responsive" style="width:100%" alt="proj1"><br>
+        <a href="##" class="btn btn-primary">Consultez l'app</a>
+      </div>
+      <div class="col-sm-4">
+        <h2>Boutique en ligne</h2> 
+        <p>E-commerce : Création d'une boutique en ligne de "vêtements traditionnels Marocain" où les utilisateurs peuvent parcourir des produits, les ajouter à leur panier, passer des commandes et effectuer des paiements en ligne, en développement des fonctionnalités qui permettent aux utilisateurs d'ajouter des produits à leur panier, de modifier les quantités, de supprimer des articles et de recalculer le total. </p>
+        <img src="image/proj2.png" class="img-responsive" style="width:100% " alt="proj2" ><br>
+        <a href="##" class="btn btn-primary">Consultez la boutique</a>
+      </div>
+   
+    </div>
+</div>
+
+<div class="container-fluid bg-5 text-center" id="contact">
+    <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Contatez-Moi</h2>
+  
+    <div class="row">          
+        <p><span class="glyphicon glyphicon-map-marker"></span> Paris, France</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +33 00 00 00 00 </p>
+        <p><span class="glyphicon glyphicon-envelope"></span> yasminataif@gmail.com</p>
+    </div>
+
+    <div class="row formulaire">  
+        <div class="col-sm-12 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Nom Prénom" type="text" required>
+        </div>
+        <div class="col-sm-12 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+        <div class="col-sm-12 form-group">
+            <textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="5"></textarea>
+        </div>
+        <div class="col-sm-12 form-group">
+            <button class="btn btn-success " type="submit">Contactez-moi</button>
+        </div>
+
+    </div>
+
+</div>
+<footer class="container-fluid bg-6 text-right">
+  <a href="https://www.facebook.com/votre-page-facebook/">
+      <img src="image/facebook.png" alt="Logo Facebook" width="30" height="30" />
+  </a>
+  <a href="https://www.instagram.com/votre-page-instagram/">
+      <img src="image/instagram.png" alt="Logo Instagram" width="30" height="30" />
+  </a>
+  <a href="https://www.twitter.com/votre-page-twitter/">
+      <img src="image/twitter.png" alt="Logo Twitter" width="30" height="30" />
+  </a>
+  <a href="https://www.whatsapp.com/votre-page-whatsapp/">
+      <img src="image/whatsapp.png" alt="Logo Whatsapp" width="30" height="30" />
+  </a>
+ <div class="info">
+  <p><span class="glyphicon glyphicon-map-marker"></span> Paris, France</p>
+  <p><span class="glyphicon glyphicon-phone"></span> +33 00 00 00 00 </p>
+  <p><span class="glyphicon glyphicon-envelope"></span> yasminataif@gmail.com</p>
+ </div>
+  <p style="text-align: center;">&copy; 2023 EL TAIEBI-Yasmina ~ Portfolio ~ Tout droit réservés</p>
+</footer>
+    
 </body>
 </html>
